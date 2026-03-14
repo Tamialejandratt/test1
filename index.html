@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Rock Luxury Cakes | Haute Pâtisserie &amp; Rebellion</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#d41132",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#181112",
+                        "accent-dark": "#39282b",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            background-color: #181112;
+        }
+
+        .rock-gradient {
+            background: linear-gradient(180deg, rgba(24, 17, 18, 0) 0%, rgba(212, 17, 50, 0.1) 100%);
+        }
+    </style>
+</head>
+
+<body class="font-display bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased">
+    <!-- Header & Navigation -->
+    <header
+        class="sticky top-0 z-50 w-full border-b border-accent-dark bg-background-dark/95 backdrop-blur-sm px-6 md:px-10 py-4">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-primary text-3xl">database</span>
+                <h2 class="text-xl font-bold tracking-tight uppercase">Pastelería del Rock</h2>
+            </div>
+            <nav class="hidden md:flex items-center gap-10">
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#collection">Colección</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#concept">Concepto</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#music">Vibras</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#story">Nuestra Historia</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#contact">Contacto</a>
+            </nav>
+            <button
+                class="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-lg text-sm font-bold transition-all transform hover:scale-105">Pedir
+                Ahora</button>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/60 to-transparent z-10">
+                </div>
+                <img alt="Hero Cake" class="w-full h-full object-cover"
+                    data-alt="Luxury artistic black multi-tiered cake with red accents"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-2Gnh0rjonvVdYCYwu2E5qU1as1_8vr5GePEtsj6A-IaP7JB9ZnZ5XSwXuJO6JWUDqn8nklhJ4DFamsCQtkym4la2w6rtHJY4kGWcVG2laAR3i0j7AescXB0ko24S8HU-J5UEBpQeMcA3IL7xrQckgSXTTdsrGkiLAvu7CpCcPr-1WVY1ggVVIhvLYwDJj8dQ7wfpbSeV5yluxCjm7IsRhQF6cPCIXsL08aXelF9StNLAU3SxG3UmmSmUnNT__BDOUkhBIcQ5ZRgr" />
+            </div>
+            <div class="relative z-20 text-center px-4 max-w-4xl mx-auto">
+                <span class="text-primary font-bold tracking-[0.3em] uppercase mb-4 block animate-pulse">Alta
+                    Pastelería</span>
+                <h1 class="text-5xl md:text-8xl font-black mb-6 leading-tight tracking-tighter">PASTELERÍA <span
+                        class="text-primary italic">DEL</span> ROCK</h1>
+                <p class="text-lg md:text-xl text-slate-300 font-light max-w-2xl mx-auto mb-10 leading-relaxed">Donde la
+                    precisión de la repostería francesa se encuentra con el alma rebelde del rock 'n' roll. Disfruta de
+                    una sinfonía de sabor comestible.</p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a class="w-full sm:w-auto bg-primary text-white px-10 py-4 rounded-lg font-bold text-lg hover:shadow-[0_0_20px_rgba(212,17,50,0.4)] transition-all"
+                        href="#collection">Explorar la Colección Vinilo</a>
+                    <a class="w-full sm:w-auto border border-primary text-primary px-10 py-4 rounded-lg font-bold text-lg hover:bg-primary/10 transition-all"
+                        href="#music">Escucha las Vibras</a>
+                </div>
+            </div>
+        </section>
+        <!-- Concept Section -->
+        <section class="py-24 px-6 bg-background-dark rock-gradient" id="concept">
+            <div class="max-w-5xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">El Concepto de Fusión</h2>
+                <div class="grid md:grid-cols-3 gap-12 mt-16">
+                    <div class="p-6 border border-accent-dark rounded-xl bg-background-dark/50">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-4">music_note</span>
+                        <h3 class="text-xl font-bold mb-3">Precisión Rítmica</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Cada capa se compone como un riff clásico:
+                            ritmo perfecto, pesos equilibrados y ejecución impecable.</p>
+                    </div>
+                    <div class="p-6 border border-accent-dark rounded-xl bg-background-dark/50">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-4">diamond</span>
+                        <h3 class="text-xl font-bold mb-3">Materia Prima</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Utilizamos vainilla rara de Madagascar y 85%
+                            de cacao oscuro para asegurar que la calidad esté a la altura de la estética de lujo.</p>
+                    </div>
+                    <div class="p-6 border border-accent-dark rounded-xl bg-background-dark/50">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-4">bolt</span>
+                        <h3 class="text-xl font-bold mb-3">Espíritu Rebelde</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Rompemos las reglas de los pasteles de boda
+                            tradicionales con texturas atrevidas, paletas oscuras y diseños vanguardistas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Cake Catalog -->
+        <section class="py-24 px-6 max-w-7xl mx-auto" id="collection">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div>
+                    <h2 class="text-4xl font-black uppercase tracking-tight">La Colección Vinilo</h2>
+                    <p class="text-slate-400 mt-2">Obras maestras de temporada de edición limitada</p>
+                </div>
+                <div class="h-[1px] flex-grow mx-8 bg-accent-dark hidden md:block"></div>
+                <button
+                    class="text-primary font-bold flex items-center gap-2 hover:translate-x-2 transition-transform">VER
+                    CATÁLOGO COMPLETO <span class="material-symbols-outlined">arrow_forward</span></button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Cake 1 -->
+                <div
+                    class="group relative bg-background-dark border border-accent-dark rounded-xl overflow-hidden hover:border-primary transition-all">
+                    <div class="aspect-[4/5] overflow-hidden">
+                        <img alt="Velvet Rebel"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                            data-alt="Dark chocolate cake with red velvet details and gold leaf"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdTUFwAXZRhqNkvhIjiSmjfPVikJG8Mj4zSd0jNkmZ1P0VqoZhqIKZXhmerA83Y3Is7M2OoDo3vXpjE7wPKkIHDVDlTxwlgTgzFhuRAuD0UFf5dkklW-rzEXE_T3dW1NSQBPs6oELl8_MOcSdWJopV67ILz9cswDJgdHvNuJgGm5b5EjAcvKRTdGATiPU-CqW-Zyp6lyuVeG5LG6pjUlDfcZc4aqstJoonW6MB--gLfQPvR0v-DkLAxg-mO16Le7zrasY-SiCVBsW1" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 uppercase">REBELDE DE TERCIOPELO</h3>
+                        <p class="text-slate-400 text-sm mb-4">Bizcocho red velvet profundo infusionado con bourbon,
+                            envuelto en ganache de carbón.</p>
+                        <span class="text-primary font-bold">$240</span>
+                    </div>
+                </div>
+                <!-- Cake 2 -->
+                <div
+                    class="group relative bg-background-dark border border-accent-dark rounded-xl overflow-hidden hover:border-primary transition-all">
+                    <div class="aspect-[4/5] overflow-hidden">
+                        <img alt="Obsidian Tier"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                            data-alt="Monochromatic black cake with architectural textures"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3iy6UUWcz0e4e7VF-OdnGFC7Jss96yI-GYdb_VFMgnfD6Z5fmQjiT_5j3BvpekqOK0nNZvlhJwNiEosWM845A_IwuPg5KvRiy3aboPbKdQ0PMOWjWWtzyacOchS_-3uFKdg88ZZaHBflooE5O2PSVHhkGaPQo1VcOk1ltaEkCZcOIDS2Iid9dEFSH1Tn5WNWsGhinA4Wj5XwfDFD6DC2JTJwzCSOySAOG_4E9YXyZDt3_COsuuYLMgxL1hpyf8-6UIu9hr0Mbxtui" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 uppercase">NIVEL OBSIDIANA</h3>
+                        <p class="text-slate-400 text-sm mb-4">Capas de sésamo negro y cacao de medianoche con un
+                            crujiente corazón de caramelo salado.</p>
+                        <span class="text-primary font-bold">$310</span>
+                    </div>
+                </div>
+                <!-- Cake 3 -->
+                <div
+                    class="group relative bg-background-dark border border-accent-dark rounded-xl overflow-hidden hover:border-primary transition-all">
+                    <div class="aspect-[4/5] overflow-hidden">
+                        <img alt="Crimson Riff"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                            data-alt="Splatter paint style cake with red and black edible colors"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqci2VDXIZLN94FVBdFXT9SvY5RT4rXu7RTFaKmCesaw6qMNg9LVpWURMlqEhkMEm3vc-JronQlyc1zj3lZKC_04CzgfGM_rPqh7u5wEUtBdDC5qU_RDrJmgXxUILoPqmW8U2QYjvmdTrH1Zj60zFEebmZuGT-M0RZDZciTcc1AMGE1MtaejhwXL5-iVSA3vEV78cd7vHm5LRSfnoIM1uJOCj5HUf7bfU9qeoG3KGJnjER2Ogr9lyrUgTu8qVfZonUyNW6U6PwVcnx" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 uppercase">RIFF CARMESÍ</h3>
+                        <p class="text-slate-400 text-sm mb-4">Puré de frambuesa especiado brotando a través de capas de
+                            gasa de vainilla.</p>
+                        <span class="text-primary font-bold">$195</span>
+                    </div>
+                </div>
+                <!-- Cake 4 -->
+                <div
+                    class="group relative bg-background-dark border border-accent-dark rounded-xl overflow-hidden hover:border-primary transition-all">
+                    <div class="aspect-[4/5] overflow-hidden">
+                        <img alt="Metallic Solos"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                            data-alt="Metallic silver and black cake with rock crystal candy decor"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUI68C6bkLYXg6RtnUOHr8_NbcHJmqOErJx2LqFATfJLmPhRL5si9tPhWFPOUWfOOA_4f6QiigUBWx51DhF89-P7uwAurRdASt6lTHQnLY8w-mqvcCZCTKOZ86rfdojN-ZB28sKjBY8AjKYnMZ5uJ43BYqtcO1G8fTGHaXoWDzf4lvyoucMpxEq42SoAl13QDYVj6zKMDTITeVbk76H449hocF4PZNXykegBBvVe3JlU3i8e_3L6l2iAnn0H0vyYayK0mqmpvy2C9S" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 uppercase">SOLOS METÁLICOS</h3>
+                        <p class="text-slate-400 text-sm mb-4">Láminas de plata comestible sobre capas de moca empapadas
+                            en espresso. Afilado y energizante.</p>
+                        <span class="text-primary font-bold">$275</span>
+                    </div>
+                </div>
+                <!-- Cake 5 -->
+                <div
+                    class="group relative bg-background-dark border border-accent-dark rounded-xl overflow-hidden hover:border-primary transition-all">
+                    <div class="aspect-[4/5] overflow-hidden">
+                        <img alt="Leather &amp; Lace"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                            data-alt="White cake with black drips and leather-like texture icing"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnYe0MaAEQzdXZ_M156lj3vYCXjh-OA8eG3qG9R-PZJ2k2SPXOXBLhoD3a6QC8ilb823JG4T5gnaxW4fBCMq21ZqT9tmaoiw0RbouBabeeLfFOoi-YyPikl--9atFLHXEoC2GBfjSaBw_GAya3gfDAe2lwGnP4AAHaYxgEG6jtINIwBqaelE3uYR86wdaWVL0qR30tYnkTfgIeJ5dkqX8V1GzznFpoNXW23h4PGLtMuV215Qekr6lfi9jtmvhqnpz-jLc4Q5-eZfsn" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 uppercase">CUERO Y ENCAJE</h3>
+                        <p class="text-slate-400 text-sm mb-4">Delicado saúco y chocolate blanco combinados con acentos
+                            de regaliz oscuro.</p>
+                        <span class="text-primary font-bold">$220</span>
+                    </div>
+                </div>
+                <!-- Cake 6 -->
+                <div
+                    class="group relative bg-background-dark border border-accent-dark rounded-xl overflow-hidden hover:border-primary transition-all">
+                    <div class="aspect-[4/5] overflow-hidden">
+                        <img alt="Gothic Anthem"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                            data-alt="Gothic style cake with dark floral decorations and red icing"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDp1kv6pNhZjquZ_HIDK8xdWhV69bt09WdaiWiG6Q_iDFn2dvRrDKppKg5gdCibu2bRteL6P6fnZ6TyiYAwma3fdCR3WwCPEBKxUseRB1hOcihjZXgv-Euoe_eDhGQaGmp9NVgPga3TfBPanRf0_o8DDeyfgR_EH-PuI-v60zkPipLLtwxgGEI8pxOqhVEpwEUdwZKwogipoPVZ0u217q7VchZdgQYdMaAyWeYsfgs4K28pdfkL57Sd7AsXug0Kwff5g-5rhwafWK6" />
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2 uppercase">HIMNO GÓTICO</h3>
+                        <p class="text-slate-400 text-sm mb-4">Capas de mousse de mora y lavanda encerradas en una jaula
+                            de chocolate oscuro.</p>
+                        <span class="text-primary font-bold">$290</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Music / Player Section -->
+        <section class="py-20 px-6 bg-primary/5 border-y border-primary/20" id="music">
+            <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
+                <div class="relative group cursor-pointer">
+                    <div
+                        class="w-64 h-64 rounded-full border-8 border-accent-dark bg-zinc-900 flex items-center justify-center overflow-hidden animate-[spin_10s_linear_infinite]">
+                        <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
+                            <div class="w-4 h-4 rounded-full bg-primary"></div>
+                        </div>
+                        <img alt="Vinyl" class="absolute inset-0 opacity-40 object-cover"
+                            data-alt="Vinyl record spinning with rock concert background"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjI3cPRfx1ssO4BN_W-t-yStuqdb2JdvvFnuqNo67DNb6GidWcalROOG6fwWy6Iirk-M_ionwFtAatRvG6MOhvfMdtG2YwgeifawoNxKBXWtjJylxyYMwfvqIxDxewOKPYjXuSiIA69t7VkkJ_ien6Vz91HBqcbCPY9Bawt4Ha512bjlTcxFn5zBXk9t58Px7v4JMzLEDadiikqS3Sw0C5CVQHelLxgsF5NTRyzwwENfaMXcrlFwXXXNd7QjrMAljkiRR_t3ohmZtF" />
+                    </div>
+                    <div
+                        class="absolute inset-0 flex items-center justify-center group-hover:opacity-100 opacity-0 transition-opacity">
+                        <span class="material-symbols-outlined text-white text-6xl">play_circle</span>
+                    </div>
+                </div>
+                <div class="flex-1 text-center md:text-left">
+                    <h2 class="text-3xl font-bold mb-4">La Experiencia de Audio</h2>
+                    <p class="text-slate-400 mb-8">Cada pastel viene con una lista de reproducción curada. Escanea el
+                        código QR de tu caja para sincronizar tu degustación con el paisaje sonoro perfecto.</p>
+                    <div
+                        class="bg-background-dark p-4 rounded-xl border border-accent-dark flex items-center justify-between gap-6">
+                        <div class="flex items-center gap-4">
+                            <button class="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
+                                <span class="material-symbols-outlined text-white">pause</span>
+                            </button>
+                            <div>
+                                <p class="text-sm font-bold truncate">Estado actual: Velvet Revolver</p>
+                                <p class="text-xs text-slate-500">Curada por el Jefe de Pastelería J. Hendrix</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2 pr-2">
+                            <div class="w-24 h-1 bg-accent-dark rounded-full overflow-hidden">
+                                <div class="w-2/3 h-full bg-primary"></div>
+                            </div>
+                            <span class="text-[10px] text-slate-500">03:45</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Story Section -->
+        <section class="py-24 px-6 overflow-hidden" id="story">
+            <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="absolute -top-10 -left-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl"></div>
+                    <div class="relative z-10 border-l-4 border-primary pl-8">
+                        <h2 class="text-4xl font-bold mb-6 uppercase tracking-tight">Nuestra Historia:<br />Del
+                            Escenario al Estudio</h2>
+                        <p class="text-slate-300 mb-6 leading-relaxed">Pastelería del Rock no nació en una cocina
+                            tradicional. Se concibió en el backstage de locales legendarios. Fundada por un baterista de
+                            gira convertido en maestro chocolatero, nuestra misión era sencilla: llevar la intensidad
+                            pura de un espectáculo en vivo al delicado mundo de los postres de alta gama.</p>
+                        <p class="text-slate-400 leading-relaxed italic">"Me di cuenta de que un gran postre necesita
+                            las mismas cosas que un gran himno de rock: una base sólida, una sección media compleja y un
+                            gancho que perdure mucho después de que termine."</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <img alt="Chef Work" class="rounded-lg shadow-2xl mt-12"
+                        data-alt="Pastry chef with tattoos working on a chocolate sculpture"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBf9sjAvsWfAGxNskIB9DiFUfhyzLWBzIQD_StqKRYDjVznhsTChOeJ8q2GAh_WxpikEZcnOqamAzJHnYd7Zgheghh_gfGltNZpNlvhK43vf97IkfOQdSueU3pwQZ770kayMblW4mOjP3PTBl2YnRmG0GpUDNN0AIM1iLm2ektLTREANkeZkKdhSZWrruYAxj0SXREXxrTqou6Ra-KELIQvnFrb8Y9lE1EIwwcj6kugfMKCRRbD_FE98GktYYnKmvL13Gn-qDcgGyyk" />
+                    <img alt="Kitchen Studio" class="rounded-lg shadow-2xl"
+                        data-alt="Modern high-end kitchen with moody lighting and rock equipment"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIdigYCAVLilcykopYdsQnofmDbsfgDRMxTpP5MzW8geLbibZHaGvGsCcG4l-0oDCb7bZoa7iKRV5_LSXJKYHfm7uHNXK76M5Mnv0W_dRPfiMZ26u1FZSSSbS2KEA-ebbiYaW5muPiIpN38xEohwAim9XShrTZ0BNBqy5OX0_7FI_C8WPLPYzNxjWXPbEfhMR3k_BQ_D13KzCTPrPQbj-LfLiZAH4cKpfNnSoG21C2y2dl3xhOsRflt6UGeOMTYnV1kvu_MKg4nPVY" />
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="py-24 px-6 bg-background-dark/50" id="contact">
+            <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16">
+                <div class="lg:w-1/3">
+                    <h2 class="text-4xl font-bold mb-6 uppercase">Trabaja con Nosotros</h2>
+                    <p class="text-slate-400 mb-10">Encarga una obra maestra personalizada para tu próximo evento o
+                        lanzamiento de gira. Nos especializamos en bodas de lujo y catering VIP.</p>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-12 h-12 rounded-lg bg-accent-dark flex items-center justify-center text-primary">
+                                <span class="material-symbols-outlined">mail</span>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-500 uppercase font-bold">Correo electrónico</p>
+                                <p class="text-sm">backstage@rockluxurycakes.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-12 h-12 rounded-lg bg-accent-dark flex items-center justify-center text-primary">
+                                <span class="material-symbols-outlined">call</span>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-500 uppercase font-bold">Llamar al estudio</p>
+                                <p class="text-sm">+1 (888) ROCK-CAKE</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-12 h-12 rounded-lg bg-accent-dark flex items-center justify-center text-primary">
+                                <span class="material-symbols-outlined">share</span>
+                            </div>
+                            <div class="flex gap-4">
+                                <a class="hover:text-primary transition-colors" href="#">Instagram</a>
+                                <a class="hover:text-primary transition-colors" href="#">Spotify</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-2/3 bg-background-dark border border-accent-dark p-8 md:p-12 rounded-2xl">
+                    <form class="grid md:grid-cols-2 gap-6">
+                        <div class="flex flex-col gap-2">
+                            <label class="text-xs font-bold uppercase text-slate-500">Tu Nombre</label>
+                            <input
+                                class="bg-accent-dark/30 border-accent-dark rounded-lg p-3 text-white focus:border-primary focus:ring-0 outline-none"
+                                placeholder="Axl Rose" type="text" />
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <label class="text-xs font-bold uppercase text-slate-500">Tu Nombre</label>
+                            <input
+                                class="bg-accent-dark/30 border-accent-dark rounded-lg p-3 text-white focus:border-primary focus:ring-0 outline-none"
+                                placeholder="axl@gunsnroses.com" type="email" />
+                        </div>
+                        <div class="flex flex-col gap-2 md:col-span-2">
+                            <label class="text-xs font-bold uppercase text-slate-500">Tu Nombre</label>
+                            <select
+                                class="bg-accent-dark/30 border-accent-dark rounded-lg p-3 text-white focus:border-primary focus:ring-0 outline-none">
+                                <option>Boda de Lujo</option>
+                                <option>Fiesta de Lanzamiento de Álbum</option>
+                                <option>Catering de Gira</option>
+                                <option>Encargo Privado</option>
+                            </select>
+                        </div>
+                        <div class="flex flex-col gap-2 md:col-span-2">
+                            <label class="text-xs font-bold uppercase text-slate-500">Tu Nombre</label>
+                            <textarea
+                                class="bg-accent-dark/30 border-accent-dark rounded-lg p-3 text-white focus:border-primary focus:ring-0 outline-none"
+                                placeholder="Cuéntanos sobre el ambiente y la música..." rows="4"></textarea>
+                        </div>
+                        <button
+                            class="md:col-span-2 bg-primary hover:bg-primary/90 text-white font-bold py-4 rounded-lg transition-all uppercase tracking-widest">Enviar
+                            Transmisión</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-accent-dark bg-background-dark">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-primary">database</span>
+                <span class="font-bold tracking-tighter uppercase">Pastelería del Rock</span>
+            </div>
+            <p class="text-slate-500 text-sm">© 2024 Pastelería del Rock Studio. Para los que tocan a todo volumen.</p>
+            <div class="flex gap-8">
+                <a class="text-xs text-slate-500 hover:text-white uppercase transition-colors" href="#">Privacidad</a>
+                <a class="text-xs text-slate-500 hover:text-white uppercase transition-colors" href="#">Términos</a>
+                <a class="text-xs text-slate-500 hover:text-white uppercase transition-colors" href="#">Envíos</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
